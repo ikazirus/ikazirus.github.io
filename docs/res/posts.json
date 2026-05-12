@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ecs-dots-performance",
+    "type": "article",
+    "title": "Why I Ditched MonoBehaviours for Pure ECS on My Last Project",
+    "excerpt": "A deep dive into the performance gains and architectural clarity that Unity DOTS brought to a complex simulation — and the real tradeoffs you need to know.",
+    "category": "ARCHITECTURE",
+    "date": "2025-05-10",
+    "readTime": "8 min",
+    "thumb": "/res/blog-ecs-dots.jpg",
+    "path": "/blog/ecs-dots-performance/"
+  },
+  {
+    "id": "hand-tracking-quest3",
+    "type": "article",
+    "title": "High-Fidelity Hand Interactions for Meta Quest 3",
+    "excerpt": "From ray casting to direct manipulation — physics-accurate hand tracking interactions without sacrificing the frame budget on standalone hardware.",
+    "category": "VR / AR",
+    "date": "2025-04-22",
+    "readTime": "6 min",
+    "thumb": "/res/blog-hand-tracking.jpg",
+    "path": "/blog/hand-tracking-quest3/"
+  },
+  {
+    "id": "unity-shader-graph",
+    "type": "article",
+    "title": "Shader Graph Masterclass: Building a Holographic Shield Effect",
+    "excerpt": "Step-by-step breakdown of a production holographic shield using Fresnel, distortion, and intersection detection — all without touching HLSL.",
+    "category": "GRAPHICS",
+    "date": "2025-03-15",
+    "readTime": "10 min",
+    "thumb": "/res/blog-shader-graph.jpg",
+    "path": "/blog/unity-shader-graph/"
+  },
+  {
+    "id": "yt-zenject-di",
+    "type": "video",
+    "title": "Dependency Injection in Unity with Zenject — Full Tutorial",
+    "excerpt": "Learn how to wire up a full DI architecture in Unity from scratch using Zenject, covering bindings, installers, signals, and testability.",
+    "category": "VIDEO · ARCHITECTURE",
+    "date": "2025-05-01",
+    "videoId": "REPLACE_WITH_YOUR_VIDEO_ID",
+    "thumb": "https://img.youtube.com/vi/REPLACE_WITH_YOUR_VIDEO_ID/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=REPLACE_WITH_YOUR_VIDEO_ID"
+  },
+  {
+    "id": "yt-dots-intro",
+    "type": "video",
+    "title": "Unity DOTS Crash Course — ECS, Jobs & Burst Explained",
+    "excerpt": "A practical introduction to Unity's Data-Oriented Technology Stack. Build a high-performance particle simulation from zero with real benchmark comparisons.",
+    "category": "VIDEO · PERFORMANCE",
+    "date": "2025-04-10",
+    "videoId": "REPLACE_WITH_YOUR_VIDEO_ID_2",
+    "thumb": "https://img.youtube.com/vi/REPLACE_WITH_YOUR_VIDEO_ID_2/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=REPLACE_WITH_YOUR_VIDEO_ID_2"
+  }
+]
