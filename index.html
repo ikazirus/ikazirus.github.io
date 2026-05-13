@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kazun Attanayake | Unity Game Developer</title>
+<meta name="description" content="Kazun Attanayake — Unity Game Developer. Expert in 2D, 3D, VR/AR development with performance-oriented architectures.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#hero"><span class="status-dot"></span>KA.DEV</a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact-full">Contact</a></li>
+  </ul>
+  <a class="nav-cta" href="mailto:your@email.com">HIRE ME</a>
+  <div class="hamburger" id="hamburger" aria-label="Menu" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<main>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-tag">// PLAYER ONE READY</div>
+        <h1 class="hero-name">
+          <span class="glitch" data-text="KAZUN">KAZUN</span><br>
+          <span class="glitch" data-text="ATTANAYAKE">ATTANAYAKE</span>
+        </h1>
+        <div class="hero-typed">
+          <span id="typed-text"></span><span class="cursor"></span>
+        </div>
+        <p class="hero-bio">
+          Architecting immersive digital worlds with <strong>Unity 2D · 3D · VR/AR</strong>.
+          Every system is built with performance-first thinking, clean SOLID architecture,
+          and zero tolerance for technical debt. Code that ships at 60fps and scales.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn-primary" href="#portfolio">VIEW PROJECTS</a>
+          <a class="btn-outline" href="#blog">READ BLOG</a>
+        </div>
+      </div>
+
+      <!-- PLAYER CARD -->
+      <div class="player-card reveal">
+        <div class="pc-corner-tr"></div>
+        <div class="pc-corner-bl"></div>
+        <div class="card-header">
+          <div class="avatar" id="avatar-wrap">
+            <img
+              src="/res/profile.jpg"
+              alt="Kazun Attanayake"
+              class="avatar-photo"
+              onload="this.parentElement.classList.add('has-photo')"
+              onerror="this.style.display='none'"
+            >
+            <span class="avatar-initials">KA</span>
+          </div>
+          <div class="card-meta">
+            <div class="player-name">KAZUN ATTANAYAKE</div>
+            <div class="player-class">[ UNITY DEV · ARCHITECT ]</div>
+            <span class="online-tag">
+              <span class="status-dot" style="width:5px;height:5px"></span>
+              ONLINE · OPEN TO WORK
+            </span>
+          </div>
+        </div>
+        <div class="stat-row">
+          <div class="stat-label"><span>C# MASTERY</span><span>92/100</span></div>
+          <div class="stat-bar"><div class="stat-fill" data-w="92%"></div></div>
+        </div>
+        <div class="stat-row">
+          <div class="stat-label"><span>UNITY ENGINE</span><span>95/100</span></div>
+          <div class="stat-bar"><div class="stat-fill" data-w="95%"></div></div>
+        </div>
+        <div class="stat-row">
+          <div class="stat-label"><span>VR / AR SYSTEMS</span><span>85/100</span></div>
+          <div class="stat-bar"><div class="stat-fill g" data-w="85%"></div></div>
+        </div>
+        <div class="stat-row">
+          <div class="stat-label"><span>GRAPHICS / SHADERS</span><span>80/100</span></div>
+          <div class="stat-bar"><div class="stat-fill g" data-w="80%"></div></div>
+        </div>
+        <div class="stat-row">
+          <div class="stat-label"><span>ARCHITECTURE</span><span>90/100</span></div>
+          <div class="stat-bar"><div class="stat-fill o" data-w="90%"></div></div>
+        </div>
+        <div class="card-tags">
+          <span class="tag active">UNITY 2D</span>
+          <span class="tag active">UNITY 3D</span>
+          <span class="tag active">VR / AR</span>
+          <span class="tag">ECS / DOTS</span>
+          <span class="tag active">C#</span>
+          <span class="tag">SOLID</span>
+          <span class="tag green">OPEN TO WORK</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT STRIP (after hero) -->
+<div id="contact-top">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="contact-cta-text">
+        <div class="ct-label">// CONNECT WITH ME</div>
+        <h2>Let's Build Something Great</h2>
+        <p>Available for freelance projects, full-time roles, and collaborations.</p>
+      </div>
+      <div class="social-row">
+        <a class="social-btn" href="https://github.com/ikazirus" target="_blank" rel="noopener" title="GITHUB">🐙</a>
+        <a class="social-btn" href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener" title="LINKEDIN">💼</a>
+        <a class="social-btn" href="https://twitter.com/your-handle" target="_blank" rel="noopener" title="TWITTER">🐦</a>
+        <a class="social-btn" href="https://youtube.com/@your-channel" target="_blank" rel="noopener" title="YOUTUBE">▶️</a>
+        <a class="social-btn" href="https://instagram.com/your-handle" target="_blank" rel="noopener" title="INSTAGRAM">📷</a>
+        <a class="social-btn" href="https://facebook.com/your-handle" target="_blank" rel="noopener" title="FACEBOOK">📘</a>
+        <a class="social-btn btn-primary" href="mailto:your@email.com" title="EMAIL" style="clip-path:polygon(6px 0%,100% 0%,100% calc(100% - 6px),calc(100% - 6px) 100%,0% 100%,0% 6px)">✉️</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-prefix">01 // ABILITY TREE</div>
+      <h2 class="section-title">Technical <em>Arsenal</em></h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <span class="skill-icon">🎮</span>
+        <div class="skill-name">UNITY 2D</div>
+        <p class="skill-desc">Tile-based worlds, custom physics, sprite animation pipelines, 2D URP lighting, procedural generation, mobile-optimised rendering.</p>
+        <div class="skill-xp">
+          <div class="xp-row"><span class="xp-label">Tilemap System</span><div class="xp-bar"><div class="xp-fill" data-w="95%"></div></div><span class="xp-val">95%</span></div>
+          <div class="xp-row"><span class="xp-label">Physics 2D</span><div class="xp-bar"><div class="xp-fill" data-w="90%"></div></div><span class="xp-val">90%</span></div>
+          <div class="xp-row"><span class="xp-label">2D Animation</span><div class="xp-bar"><div class="xp-fill" data-w="92%"></div></div><span class="xp-val">92%</span></div>
+          <div class="xp-row"><span class="xp-label">URP 2D Lighting</span><div class="xp-bar"><div class="xp-fill" data-w="85%"></div></div><span class="xp-val">85%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card g-accent reveal">
+        <span class="skill-icon">🌐</span>
+        <div class="skill-name">UNITY 3D</div>
+        <p class="skill-desc">Scene architecture, PBR shaders, LOD systems, real-time lighting, post-processing, NavMesh AI, multi-platform deployment pipelines.</p>
+        <div class="skill-xp">
+          <div class="xp-row"><span class="xp-label">HDRP / URP</span><div class="xp-bar"><div class="xp-fill g" data-w="88%"></div></div><span class="xp-val">88%</span></div>
+          <div class="xp-row"><span class="xp-label">Shader Graph</span><div class="xp-bar"><div class="xp-fill g" data-w="82%"></div></div><span class="xp-val">82%</span></div>
+          <div class="xp-row"><span class="xp-label">PhysX</span><div class="xp-bar"><div class="xp-fill g" data-w="91%"></div></div><span class="xp-val">91%</span></div>
+          <div class="xp-row"><span class="xp-label">NavMesh AI</span><div class="xp-bar"><div class="xp-fill g" data-w="85%"></div></div><span class="xp-val">85%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card o-accent reveal">
+        <span class="skill-icon">🥽</span>
+        <div class="skill-name">VR / AR</div>
+        <p class="skill-desc">Immersive XR experiences with OpenXR, hand tracking, spatial UI, AR Foundation, and perf tuning for standalone headsets.</p>
+        <div class="skill-xp">
+          <div class="xp-row"><span class="xp-label">OpenXR / XRI</span><div class="xp-bar"><div class="xp-fill o" data-w="87%"></div></div><span class="xp-val">87%</span></div>
+          <div class="xp-row"><span class="xp-label">AR Foundation</span><div class="xp-bar"><div class="xp-fill o" data-w="83%"></div></div><span class="xp-val">83%</span></div>
+          <div class="xp-row"><span class="xp-label">Hand Tracking</span><div class="xp-bar"><div class="xp-fill o" data-w="78%"></div></div><span class="xp-val">78%</span></div>
+          <div class="xp-row"><span class="xp-label">Meta Quest SDK</span><div class="xp-bar"><div class="xp-fill o" data-w="80%"></div></div><span class="xp-val">80%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <span class="skill-icon">🏗️</span>
+        <div class="skill-name">CODE ARCHITECTURE</div>
+        <p class="skill-desc">SOLID principles, ECS/DOTS for extreme performance, Dependency Injection with Zenject/VContainer, clean event-driven design patterns.</p>
+        <div class="skill-xp">
+          <div class="xp-row"><span class="xp-label">ECS / DOTS</span><div class="xp-bar"><div class="xp-fill" data-w="88%"></div></div><span class="xp-val">88%</span></div>
+          <div class="xp-row"><span class="xp-label">Zenject / VCont.</span><div class="xp-bar"><div class="xp-fill" data-w="90%"></div></div><span class="xp-val">90%</span></div>
+          <div class="xp-row"><span class="xp-label">UniRx / UniTask</span><div class="xp-bar"><div class="xp-fill" data-w="85%"></div></div><span class="xp-val">85%</span></div>
+          <div class="xp-row"><span class="xp-label">Design Patterns</span><div class="xp-bar"><div class="xp-fill" data-w="93%"></div></div><span class="xp-val">93%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card g-accent reveal">
+        <span class="skill-icon">⚡</span>
+        <div class="skill-name">PERFORMANCE</div>
+        <p class="skill-desc">Deep profiling, GPU optimisation, Burst Compiler, Job System, memory management, draw call batching, and frame-budget analysis.</p>
+        <div class="skill-xp">
+          <div class="xp-row"><span class="xp-label">Burst Compiler</span><div class="xp-bar"><div class="xp-fill g" data-w="85%"></div></div><span class="xp-val">85%</span></div>
+          <div class="xp-row"><span class="xp-label">Job System</span><div class="xp-bar"><div class="xp-fill g" data-w="82%"></div></div><span class="xp-val">82%</span></div>
+          <div class="xp-row"><span class="xp-label">GPU Profiling</span><div class="xp-bar"><div class="xp-fill g" data-w="80%"></div></div><span class="xp-val">80%</span></div>
+          <div class="xp-row"><span class="xp-label">Mem. Management</span><div class="xp-bar"><div class="xp-fill g" data-w="87%"></div></div><span class="xp-val">87%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card o-accent reveal">
+        <span class="skill-icon">🛠️</span>
+        <div class="skill-name">TOOLS & WORKFLOW</div>
+        <p class="skill-desc">Full-cycle dev with version control, CI/CD, automated testing, Addressables, and cloud build for multi-platform shipping.</p>
+        <div class="skill-xp">
+          <div class="xp-row"><span class="xp-label">Git</span><div class="xp-bar"><div class="xp-fill o" data-w="95%"></div></div><span class="xp-val">95%</span></div>
+          <div class="xp-row"><span class="xp-label">Test Framework</span><div class="xp-bar"><div class="xp-fill o" data-w="80%"></div></div><span class="xp-val">80%</span></div>
+          <div class="xp-row"><span class="xp-label">Addressables</span><div class="xp-bar"><div class="xp-fill o" data-w="88%"></div></div><span class="xp-val">88%</span></div>
+          <div class="xp-row"><span class="xp-label">Unity Cloud</span><div class="xp-bar"><div class="xp-fill o" data-w="75%"></div></div><span class="xp-val">75%</span></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="arch-badges reveal">
+      <div class="arch-badge">SOLID PRINCIPLES</div>
+      <div class="arch-badge">ECS / DOTS</div>
+      <div class="arch-badge">DEPENDENCY INJECTION</div>
+      <div class="arch-badge">EVENT-DRIVEN</div>
+      <div class="arch-badge">COMMAND PATTERN</div>
+      <div class="arch-badge">STATE MACHINES</div>
+      <div class="arch-badge">OBJECT POOLING</div>
+      <div class="arch-badge">BURST COMPILED</div>
+      <div class="arch-badge">ASYNC / UNITASK</div>
+      <div class="arch-badge">OBSERVER PATTERN</div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-prefix">02 // QUEST LOG</div>
+      <h2 class="section-title">Development <em>Journey</em></h2>
+    </div>
+    <div class="quest-log">
+      <div class="quest-item reveal">
+        <div class="quest-meta">
+          <span class="quest-year">2023 – PRESENT</span>
+          <span class="quest-status active">● ACTIVE</span>
+        </div>
+        <div class="quest-title">Senior Unity Developer</div>
+        <div class="quest-org">// Freelance / Contract — Remote</div>
+        <p class="quest-desc">Architecting production-grade Unity projects for international clients across <strong>mobile, PC, and XR platforms</strong>. Implementing ECS/DOTS for CPU-bound simulations, custom editor tooling, and CI/CD pipelines. <strong>Zero-compromise code quality</strong> using SOLID principles and rigorous test coverage.</p>
+        <div class="quest-tech">
+          <span class="tech-chip">Unity 2022 LTS</span><span class="tech-chip">DOTS 1.x</span>
+          <span class="tech-chip">Zenject</span><span class="tech-chip">UniTask</span>
+          <span class="tech-chip">Addressables</span><span class="tech-chip">OpenXR</span>
+        </div>
+      </div>
+      <div class="quest-item reveal">
+        <div class="quest-meta">
+          <span class="quest-year">2021 – 2023</span>
+          <span class="quest-status done">✓ COMPLETE</span>
+        </div>
+        <div class="quest-title">Unity Developer — 3D / VR Specialist</div>
+        <div class="quest-org">// Game Studio</div>
+        <p class="quest-desc">Delivered multiple <strong>VR training simulations</strong> and 3D interactive applications. Custom physics interaction systems, haptic feedback pipelines, and rendering optimised for <strong>Meta Quest 2 standalone</strong>. Reduced draw calls by 40% through GPU instancing and LOD restructuring.</p>
+        <div class="quest-tech">
+          <span class="tech-chip">Unity 3D</span><span class="tech-chip">Meta XR SDK</span>
+          <span class="tech-chip">Shader Graph</span><span class="tech-chip">URP</span>
+        </div>
+      </div>
+      <div class="quest-item reveal">
+        <div class="quest-meta">
+          <span class="quest-year">2019 – 2021</span>
+          <span class="quest-status done">✓ COMPLETE</span>
+        </div>
+        <div class="quest-title">Junior Unity Developer — Mobile 2D</div>
+        <div class="quest-org">// Indie / Mobile Studio</div>
+        <p class="quest-desc">Built and shipped several <strong>2D mobile games</strong> on iOS and Android. Tilemap generation, custom physics, Spine animation integration, and aggressive memory budgeting for low-end devices.</p>
+        <div class="quest-tech">
+          <span class="tech-chip">Unity 2D</span><span class="tech-chip">Spine</span>
+          <span class="tech-chip">DOTween</span><span class="tech-chip">Firebase</span>
+          <span class="tech-chip">iOS / Android</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-prefix">03 // COMPLETED QUESTS</div>
+      <h2 class="section-title">Selected <em>Projects</em></h2>
+    </div>
+    <div class="portfolio-grid" id="portfolio-grid">
+      <div class="blog-loading">LOADING PROJECTS</div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-prefix">04 // PATCH NOTES</div>
+      <h2 class="section-title">Latest <em>Dispatches</em></h2>
+    </div>
+    <div class="blog-grid" id="blog-grid">
+      <div class="blog-loading">LOADING POSTS</div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-prefix">05 // KNOWLEDGE BASE</div>
+      <h2 class="section-title">Educational <em>Content</em></h2>
+    </div>
+    <div class="locked-section reveal">
+      <span class="lock-icon">🔒</span>
+      <div class="locked-title">CONTENT MODULE LOCKED</div>
+      <p class="locked-desc">// EDUCATIONAL CONTENT — INITIALIZING DOWNLOAD</p>
+      <div class="progress-bar"><div class="progress-fill" id="edu-progress"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT FULL -->
+<section id="contact-full">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-prefix">06 // MULTIPLAYER LINKS</div>
+      <h2 class="section-title">Find Me <em>Online</em></h2>
+    </div>
+    <div class="contact-grid">
+      <a class="contact-card reveal" href="https://github.com/ikazirus" target="_blank" rel="noopener">
+        <span class="cc-icon">🐙</span><span class="cc-name">GITHUB</span><span class="cc-handle">@ikazirus</span>
+      </a>
+      <a class="contact-card reveal" href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener">
+        <span class="cc-icon">💼</span><span class="cc-name">LINKEDIN</span><span class="cc-handle">Kazun Attanayake</span>
+      </a>
+      <a class="contact-card reveal" href="https://twitter.com/your-handle" target="_blank" rel="noopener">
+        <span class="cc-icon">🐦</span><span class="cc-name">TWITTER / X</span><span class="cc-handle">@yourhandle</span>
+      </a>
+      <a class="contact-card reveal" href="https://youtube.com/@your-channel" target="_blank" rel="noopener">
+        <span class="cc-icon">▶️</span><span class="cc-name">YOUTUBE</span><span class="cc-handle">@yourchannel</span>
+      </a>
+      <a class="contact-card reveal" href="https://instagram.com/your-handle" target="_blank" rel="noopener">
+        <span class="cc-icon">📷</span><span class="cc-name">INSTAGRAM</span><span class="cc-handle">@yourhandle</span>
+      </a>
+      <a class="contact-card reveal" href="https://facebook.com/your-handle" target="_blank" rel="noopener">
+        <span class="cc-icon">📘</span><span class="cc-name">FACEBOOK</span><span class="cc-handle">Kazun Attanayake</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p class="footer-text">
+    <span>KAZUN ATTANAYAKE</span> · UNITY DEVELOPER ·
+    BUILD <span>v1.1.0</span> · <span id="year"></span>
+  </p>
+</footer>
+
+<script>
+/* CANVAS PARTICLES */
+(function(){
+  const c=document.getElementById('bg-canvas'),ctx=c.getContext('2d');
+  let W,H;
+  const resize=()=>{W=c.width=window.innerWidth;H=c.height=window.innerHeight};
+  resize();window.addEventListener('resize',resize);
+  const COL=['rgba(0,229,255,','rgba(57,255,20,','rgba(255,106,0,'];
+  const pts=Array.from({length:65},()=>({
+    x:Math.random()*3000,y:Math.random()*2000,
+    vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,
+    r:Math.random()*1.4+.3,
+    col:COL[Math.floor(Math.random()*COL.length)],
+    a:Math.random()*.45+.1
+  }));
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    ctx.strokeStyle='rgba(0,229,255,0.025)';ctx.lineWidth=.5;
+    for(let x=0;x<W;x+=80){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke()}
+    for(let y=0;y<H;y+=80){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()}
+    pts.forEach(p=>{
+      p.x+=p.vx;p.y+=p.vy;
+      if(p.x<0)p.x=W;if(p.x>W)p.x=0;
+      if(p.y<0)p.y=H;if(p.y>H)p.y=0;
+      ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+      ctx.fillStyle=p.col+p.a+')';ctx.fill();
+    });
+    for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){
+      const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=Math.sqrt(dx*dx+dy*dy);
+      if(d<130){ctx.beginPath();ctx.moveTo(pts[i].x,pts[i].y);ctx.lineTo(pts[j].x,pts[j].y);
+        ctx.strokeStyle='rgba(0,229,255,'+(0.04*(1-d/130))+')';ctx.lineWidth=.5;ctx.stroke();}
+    }
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+/* TYPED TEXT */
+(function(){
+  const el=document.getElementById('typed-text');
+  const ph=['Unity Developer // 2D · 3D · VR/AR','Clean Code Architect','Performance-First Engineer','XR Experience Builder','Game Systems Designer'];
+  let pi=0,ci=0,del=false;
+  function type(){
+    const p=ph[pi];
+    if(!del){ci++;el.textContent=p.slice(0,ci);if(ci===p.length){del=true;setTimeout(type,2100);return}}
+    else{ci--;el.textContent=p.slice(0,ci);if(ci===0){del=false;pi=(pi+1)%ph.length}}
+    setTimeout(type,del?32:58);
+  }
+  type();
+})();
+
+/* HAMBURGER */
+document.getElementById('hamburger').addEventListener('click',()=>
+  document.getElementById('nav-links').classList.toggle('open'));
+
+/* YEAR */
+document.getElementById('year').textContent=new Date().getFullYear();
+
+/* HELPERS */
+function fmtDate(d){return new Date(d).toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'}).toUpperCase()}
+const EMOJI={ARCHITECTURE:'🏗️','VR / AR':'🥽','VR / SIMULATION':'🥽',GRAPHICS:'✨','MOBILE GAME':'📱','AR / VISUALIZATION':'🔭',VIDEO:'📹',DEFAULT:'📄'};
+function getEmoji(cat){return EMOJI[(cat||'').split('·')[0].trim()]||EMOJI.DEFAULT}
+
+/* RENDER BLOG */
+function renderBlog(posts){
+  const grid=document.getElementById('blog-grid');
+  grid.innerHTML='';
+  if(!posts||!posts.length){grid.innerHTML='<p class="blog-loading" style="opacity:.5">NO POSTS FOUND</p>';return}
+  posts.forEach(p=>{
+    const isVid=p.type==='video';
+    const href=isVid?p.url:p.path;
+    const isYtPlaceholder=isVid&&p.videoId&&p.videoId.startsWith('REPLACE');
+    const thumbSrc=isYtPlaceholder?null:p.thumb;
+    const emoji=getEmoji(p.category);
+    const thumbInner=thumbSrc
+      ?`<img src="${thumbSrc}" alt="${p.title}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\"blog-thumb-fallback\\">${emoji}</div>'">`
+      :`<div class="blog-thumb-fallback">${emoji}</div>`;
+    const card=document.createElement('div');
+    card.className='blog-card reveal'+(isVid?' is-video':'');
+    card.innerHTML=`<a href="${href||'#'}" ${isVid?'target="_blank" rel="noopener"':''}>
+      <div class="blog-thumb">${thumbInner}</div>
+      <div class="blog-body">
+        <div class="blog-cat">${p.category||'ARTICLE'}</div>
+        <div class="blog-title">${p.title}</div>
+        <p class="blog-excerpt">${p.excerpt}</p>
+      </div>
+      <div class="blog-footer">
+        <span class="blog-date">${fmtDate(p.date)}</span>
+        <span class="blog-read">${isVid?'WATCH →':(p.readTime||'READ')+' →'}</span>
+      </div></a>`;
+    grid.appendChild(card);
+    io.observe(card);
+  });
+}
+
+/* RENDER PORTFOLIO */
+function renderPortfolio(projects){
+  const grid=document.getElementById('portfolio-grid');
+  grid.innerHTML='';
+  if(!projects||!projects.length){grid.innerHTML='<p class="blog-loading" style="opacity:.5">NO PROJECTS FOUND</p>';return}
+  projects.forEach(p=>{
+    const emoji=getEmoji(p.category);
+    const thumbInner=p.thumb
+      ?`<img src="${p.thumb}" alt="${p.title}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\"portfolio-thumb-fallback\\">${emoji}</div>'">`
+      :`<div class="portfolio-thumb-fallback">${emoji}</div>`;
+    const tech=(p.tech||[]).map(t=>`<span class="tech-chip">${t}</span>`).join('');
+    const card=document.createElement('div');
+    card.className='portfolio-card reveal';
+    card.innerHTML=`
+      <div class="portfolio-thumb">${thumbInner}<span class="portfolio-platform">${p.platform||''}</span></div>
+      <div class="portfolio-body">
+        <div class="portfolio-cat">${p.category}</div>
+        <div class="portfolio-title">${p.title}</div>
+        <p class="portfolio-desc">${p.excerpt}</p>
+        <div class="portfolio-tech">${tech}</div>
+        <div class="portfolio-footer">
+          <span class="portfolio-year">${p.year}</span>
+          <a href="${p.path}" class="portfolio-link">VIEW PROJECT →</a>
+        </div>
+      </div>`;
+    grid.appendChild(card);
+    io.observe(card);
+  });
+}
+
+/* FETCH DATA */
+fetch('/blog/posts.json').then(r=>r.json()).then(renderBlog).catch(()=>{
+  document.getElementById('blog-grid').innerHTML=
+    '<p class="blog-loading" style="opacity:.4">DEPLOY TO GITHUB PAGES TO LOAD POSTS</p>';
+});
+fetch('/portfolio/projects.json').then(r=>r.json()).then(renderPortfolio).catch(()=>{
+  document.getElementById('portfolio-grid').innerHTML=
+    '<p class="blog-loading" style="opacity:.4">DEPLOY TO GITHUB PAGES TO LOAD PROJECTS</p>';
+});
+
+/* INTERSECTION OBSERVER */
+const io=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(!e.isIntersecting)return;
+    e.target.classList.add('visible');
+    e.target.querySelectorAll('.stat-fill,.xp-fill').forEach(f=>f.style.width=f.dataset.w||'0%');
+    const ep=document.getElementById('edu-progress');
+    if(ep&&e.target.contains(ep))ep.style.width='23%';
+  });
+},{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

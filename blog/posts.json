@@ -1,0 +1,35 @@
+[
+  {
+    "id": "vr-training-sim",
+    "title": "VR Industrial Training Simulator",
+    "category": "VR / SIMULATION",
+    "year": "2024",
+    "platform": "Meta Quest 2 / 3",
+    "thumb": "/res/portfolio-vr-sim.jpg",
+    "excerpt": "A full-scale industrial safety training application built for Meta Quest standalone. Featuring physics-accurate tool interactions, scenario branching, and spatial audio.",
+    "tech": ["Unity 3D", "OpenXR", "Meta XR SDK", "URP", "Zenject", "UniTask"],
+    "path": "/portfolio/vr-training-sim/"
+  },
+  {
+    "id": "mobile-2d-rpg",
+    "title": "Ashen Realms — 2D Action RPG",
+    "category": "MOBILE GAME",
+    "year": "2023",
+    "platform": "iOS / Android",
+    "thumb": "/res/portfolio-rpg.jpg",
+    "excerpt": "A hand-crafted 2D action RPG with 40+ hours of content, procedural dungeon generation, and a reactive combat system built for 60fps on mid-range mobile hardware.",
+    "tech": ["Unity 2D", "C#", "DOTween", "Spine", "Addressables", "Firebase"],
+    "path": "/portfolio/mobile-2d-rpg/"
+  },
+  {
+    "id": "ar-architecture",
+    "title": "AR Architectural Visualizer",
+    "category": "AR / VISUALIZATION",
+    "year": "2024",
+    "platform": "iOS / Android",
+    "thumb": "/res/portfolio-ar-arch.jpg",
+    "excerpt": "Augmented reality walkthrough tool for architectural presentations. Clients place 1:1 scale building models in real space with real-time material and lighting swaps.",
+    "tech": ["Unity", "AR Foundation", "ARCore", "ARKit", "DOTS", "Shader Graph"],
+    "path": "/portfolio/ar-architecture/"
+  }
+]
